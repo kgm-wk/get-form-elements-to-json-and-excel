@@ -8,7 +8,7 @@ const workTime = format(new Date(), 'yyyyMMdd_HHmmss');
 const urlFormat = (url) => url.replace(/:|\/|#/g, '_');
 const urls = [
   'https://cdn.codegrid.net/2017-testcafe/demo/1.html',
-  'http://example.com/example'
+  'https://devexpress.github.io/testcafe/example/'
 ];
 
 const outputDir = './tmp';
