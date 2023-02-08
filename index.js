@@ -6,9 +6,15 @@ const format = require('date-fns/format');
 const workTime = format(new Date(), 'yyyyMMdd_HHmmss');
 
 const urlFormat = (url) => url.replace(/:|\/|#/g, '_');
-const urls = [
-  'https://cdn.codegrid.net/2017-testcafe/demo/1.html',
-  'https://devexpress.github.io/testcafe/example/'
+const urlList = [
+  {
+    path: 'https://cdn.codegrid.net/2017-testcafe/demo/1.html',
+    hd: 'legend'
+  },
+  {
+    path: 'https://devexpress.github.io/testcafe/example/',
+    hd: 'legend',
+  }
 ];
 
 const outputDir = './tmp';
@@ -16,7 +22,8 @@ if (!fs.existsSync(outputDir)){
   fs.mkdirSync(outputDir);
 }
 
-urls.forEach((url) => {
+urlList.forEach((urlItem) => {
+  const url = urlItem.path;
   const fileJson = `./${outputDir}/${urlFormat(url)}_${workTime}.json`;
   const fileExcel = `./${outputDir}/${urlFormat(url)}_${workTime}.xlsx`;
 
