@@ -22,3 +22,4 @@
 
 ### axios
 - [javascript - How to select element which comes with axios? - Stack Overflow](https://stackoverflow.com/questions/63324153/how-to-select-element-which-comes-with-axios)
+- [How to Use the User-Agent Header in Axios - Mastering JS](https://masteringjs.io/tutorials/axios/user-agent)
