@@ -15,6 +15,7 @@
     "cheerio": "^1.0.0-rc.12",
     "date-fns": "^2.29.3",
     "lodash": "^4.17.21",
+    "remove-blank-lines": "^1.4.1",
     "xlsx": "^0.18.5"
   }
 }
