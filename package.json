@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "form": "node index.js"
+    "output": "node index.js",
+    "format": "node format.js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,7 @@
     "axios": "^1.3.2",
     "cheerio": "^1.0.0-rc.12",
     "date-fns": "^2.29.3",
+    "lodash": "^4.17.21",
     "xlsx": "^0.18.5"
   }
 }

@@ -8,6 +8,18 @@
 - [JavaScriptでオブジェクトをマージ（結合）する方法、JSONのマージをする方法 - Qiita](https://qiita.com/riversun/items/60307d58f9b2f461082a)
 - [How to use continue in jQuery each() loop? - Stack Overflow](https://stackoverflow.com/questions/17162334/how-to-use-continue-in-jquery-each-loop)
 
+### reduceでcontinue
+- [When using JavaScript's reduce, how do I skip an iteration? - Stack Overflow](https://stackoverflow.com/questions/39178169/when-using-javascripts-reduce-how-do-i-skip-an-iteration)
+
+### lodash
+- [[JavaScript] 配列の操作はLodashを使いこなせると便利 | DevelopersIO](https://dev.classmethod.jp/articles/nodejs-array-manipulation-is-useful-if-you-master-lodash/)
+- [javascript - lodash unique based on everything except attribute - Stack Overflow](https://stackoverflow.com/questions/70423118/lodash-unique-based-on-everything-except-attribute)
+- [lodash で groupBy を複数の値でしたい - Qiita](https://qiita.com/takutakuma/items/04f71881a59089404348)
+- [Group by multiple properties using lodash](https://gist.github.com/progging/1159726f2704ca06641ab2a41f408584)
+- [javascript - Group array of objects by several properties with underscore - Stack Overflow](https://stackoverflow.com/questions/40132123/group-array-of-objects-by-several-properties-with-underscore)
+- [Lodashのチェーン記法について - Qiita](https://qiita.com/kurararara/items/fb470ea71e59cd0371d4)
+- [Lodash Documentation](https://lodash.com/docs/4.17.15#chain)
+
 ### Excel
 - [How to save JSON data in EXCEL file using Node.js | by Shadab Shaikh | Technogise | Medium](https://medium.com/technogise/how-to-save-json-data-in-excel-file-using-node-js-a4a4e5f40226)
 - [Node.js: Export JSON Data to Excel Easily](https://www.dltlabs.com/blog/nodejs-export-json-data-to-excel-easily-964809)
